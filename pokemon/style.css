@@ -5,5 +5,49 @@ width: 400px;
 p
 {
    font-size: 48px;
-   color:aqua
 }
+.pokemon-background{
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  color:black;
+  font-family:' Arial',sans-serif;
+  max-width: 300px;
+}
+.historia{
+   font-size: 14px;
+   margin-top: 10px;
+   font-style: italic;
+}
+.normal{
+   background: linear-gradient(135deg, #9a6754, #bc9f7b);
+}
+.fire {
+  background: linear-gradient(135deg, #ff4500, #ff8c00);
+}
+
+.water {
+  background: linear-gradient(135deg, #1e90ff, #00bfff);
+}
+
+.grass {
+  background: linear-gradient(135deg, #32cd32, #228b22);
+}
+
+.electric {
+  background: linear-gradient(135deg, #ffd700, #ffea00);
+}
+
+.bug{
+  background: linear-gradient(135deg, #518364, #56be8f);
+}
+
+.rock {
+  background: linear-gradient(135deg, #a9a9a9, #696969);
+}
+
+.ground {
+  background: linear-gradient(135deg, #deb887, #cd853f);
+}
+
