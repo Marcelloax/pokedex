@@ -12,11 +12,13 @@ const typesClasses ={
     fire:"fire",
     water:"water",
     normal:"normal",
-    bug:"bug"
+    bug:"bug",
+    fight:"fight",
+    ghost:"ghost"
     
 }
 async function getPokemons(){
-    const response = await fetch("https://pokeapi.co/api/v2/pokemon")
+    const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=151")
     const pokemons = await response.json()
     const ul = document.querySelector("ul")
     pokemons.results.forEach(async(pokemon)=>{
